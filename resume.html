@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Resume – Brandon Ross</title>
+  <meta charset="UTF-8"/>
+  <style>
+    html {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      background: #444;
+    }
+
+    body {
+      margin: 0 auto;
+      width: 8.5in;
+      font-size: 93%;
+      background: white;
+      font-family: 'Open Sans', sans-serif;
+      color: black;
+    }
+
+    @media screen
+    body {
+      margin: 1em auto;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0.5em 0 0.25em;
+      padding: 0;
+    }
+
+    div.resume {
+      padding: 0.4in 0.8in;
+    }
+
+    div.heading {
+      padding-bottom: 1.5em;
+    }
+
+    .center {
+      text-align: center
+    }
+
+    p {
+      text-align: justify;
+      margin: 0;
+    }
+
+    a:link { color: black; }
+    a:visited { color: black; }
+    a:hover { color: black; }
+    a:active { color: black; }
+
+    ul {
+      margin: 0;
+      padding-left: 1.5em;
+      list-style-type: disc;
+    }
+
+    h1 {
+      margin: -0.5em 0 0;
+    }
+
+    h2 {
+      margin-top: 0.2em;
+      border-bottom: 0.1em solid black;
+    }
+
+    .indent {
+      padding-left: 1.5em;
+    }
+
+    .inline {
+      display: inline;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .item {
+      padding: 0.2em;
+      page-break-inside: avoid;
+    }
+  </style>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <div class="resume">
+    <div class="heading center">
+      <h1>Brandon Ross</h1>
+      <div>
+        Seattle, WA • me@bwross.com • (206) 739-1004
+      </div>
+    </div>
+
+    <h2>About me</h2>
+
+    <div class="item">
+      Backend-focused engineer with 10+ years of experience building
+      performant, reliable distributed systems in Go and other languages. After
+      working across early-stage startups and contract roles, I'm now looking
+      to join a stable team where I can stay long-term, contribute
+      meaningfully, and grow with the company.
+    </div>
+
+    <h2>Skills</h2>
+
+    <div class="item">
+      <span class="bold">Programming languages</span>
+      <div class="indent">
+        Strongly proficient in Go, Java, JavaScript, PHP, SQL, and C. Proficient
+        in Kotlin, TypeScript, Solidity, C++, and Python.
+      </div>
+    </div>
+
+    <div class="item">
+      <span class="bold">Technologies</span>
+      <div class="indent">
+        Experienced with containerization technologies (Docker, Kubernetes),
+        SQL databases (MySQL, PostgreSQL, Trino), metrics and alerting software
+        (Prometheus, Grafana), and <nobr>CI/CD</nobr> pipelines (Jenkins,
+        GitHub CI).
+      </div>
+    </div>
+
+    <div class="item">
+      <span class="bold">Cloud-based architecture</span>
+      <div class="indent">
+        Designed and maintained highly distributed, fault-tolerant systems
+        within cloud-based architectures. Built infrastructure across multiple
+        cloud providers (AWS, GCP, DigitalOcean). Managed VPCs and hybrid
+        networking setups to support multi-cloud systems.
+      </div>
+    </div>
+
+    <div class="item">
+      <span class="bold">Networks</span>
+      <div class="indent">
+        Advanced working knowledge of many network protocols, as well as deep
+        knowledge and experience in network security and cryptography.
+      </div>
+    </div>
+
+    <div class="item">
+      <span class="bold">Systems</span>
+      <div class="indent">
+        Strong knowledge of Linux syscall API and internals. Strongly
+        proficient in administrating and developing low level system software
+        for Linux systems. Linux user for over 20 years, with kernel
+        development experience.
+      </div>
+    </div>
+
+    <h2>Work experience</h2>
+
+    <div class="item">
+      <span class="bold">
+        Hox Biotech • Senior Software Engineer • 2024-2025
+      </span>
+      <ul>
+        <li>Built the CLI and web API for a genome sequencing platform using Go.</li>
+        <li>Developed a low-level IPMI client library for real-time datacenter monitoring.</li>
+        <li>Created a lock-free Prometheus-compatible metrics library for high-performance observability in hot paths.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <span class="bold">
+        Sneller • Senior Software Engineer • 2022–2023
+      </span>
+      <ul>
+          <li>Designed and implemented high-performance table indexing algorithms for a Go SQL engine.</li>
+          <li>Optimized SQL query planning, reducing execution time on complex queries.</li>
+          <li>Used profiling tools to significantly reduce memory allocations and improve CPU efficiency across core services.</li>
+          <li>Open source contributions: <a href="https://github.com/SnellerInc/sneller">github.com/SnellerInc/sneller</a></li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <span class="bold">
+        Remitly • Software Development Engineer (contractor) • 2021
+      </span>
+      <ul>
+        <li>Rebuilt secure customer data storage platform in Go, replacing legacy PHP systems.</li>
+        <li>Refactored dependent services to migrate to the new customer data API.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <span class="bold">
+        Twitch / Amazon • Software Development Engineer • 2020
+      </span>
+      <ul>
+        <li>Integrated Twitch Playback Edge services with Amazon internal infrastructure for IVS product launch.</li>
+        <li>Reduced allocation overhead in HLS playlist generation by 500×, yielding 30% speedup.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <span class="bold">
+        Remitly • Software Development Engineer • 2019
+      </span>
+      <ul>
+        <li>Built API integrations with global remittance partners to expand destination coverage.</li>
+        <li>Led initiative to improve cash pickup UX via open network access and store locator tooling.</li>
+        <li>Created automated scraper and API for thousands of cash pickup locations across Mexico.</li>
+        <li>Mentored junior developers.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <span class="bold">
+        Rooster Park • Contractor at Remitly • 2018
+      </span>
+      <ul>
+        <li>Built Go and Java tooling for automating financial transaction reconciliation.</li>
+        <li>Developed secure APIs for collecting sensitive customer information.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <span class="bold">
+        New Alchemy • Full Stack Engineer • 2017–2018
+      </span>
+      <ul>
+        <li>Prototyped the TokenCard backend using Go and React Native.</li>
+        <li>Developed Ethereum smart contracts in Solidity.</li>
+        <li>Optimized Ethereum's secp256k1 signing algorithm yielding a 50% speedup.</li>
+        <li>Open source contributions: <a href="https://github.com/newalchemylimited/seth">github.com/newalchemylimited/seth</a></li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <span class="bold">
+        Igneous Systems • Member of Technical Staff • 2015–2016
+      </span>
+      <ul>
+        <li>Designed index table formats and cluster scaling logic for an S3 compatible storage system.</li>
+        <li>Optimized object read performance yielding 2× speedup.</li>
+        <li>Built an S3-to-FTP adapter in a hackathon, which met an unanticipated customer need and helped land one of our first major clients.</li>
+      </ul>
+    </div>
+
+    <!--
+    <div class="item">
+      <span class="bold">
+        University at Buffalo (Buffalo, NY) • Research Assistant • 2011–2015
+      </span>
+      <ul>
+        <li>Led StorkCloud development in Java based on Stork data transfer system.</li>
+        <li>Developed a novel data transfer protocol translation framework called Feather.</li>
+        <li>Mentored student contributors.</li>
+        <li>Open source contributions: <a href="https://github.com/alagappanr/stork">github.com/alagappanr/stork</a></li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <span class="bold">
+        Center for Computation &amp; Technology (Baton Rouge, LA) • Programmer • 2009–2010
+      </span>
+      <ul>
+        <li>Contributed to Stork multi-protocol data transfer project.</li>
+        <li>Created a novel Bash-based testing framework for CLI tools.</li>
+      </ul>
+    </div>
+    -->
+
+    <h2>Education</h2>
+
+    <div class="item">
+      <span class="bold">
+        Computer Science and Engineering (Ph.D.) • 2011–2015 (ABD)
+      </span>
+      <p class="indent">
+        University at Buffalo, Buffalo, NY. Advisor: Dr. Tevfik Kosar. Thesis
+        titled "On the Design and Implementation of a Cross Protocol Data
+        Transfer System."
+      </p>
+    </div>
+
+    <div class="item">
+      <span class="bold">
+        Computer Science (B.S.) • 2008–2011
+      </span>
+      <p class="indent">
+        Louisiana State University, Baton Rouge, LA. Minor in Mathematics.
+      </p>
+    </div>
+
+  </div>
+</body>
+</html>
